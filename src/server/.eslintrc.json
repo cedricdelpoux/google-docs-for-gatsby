@@ -1,0 +1,11 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["plugin:prettier/recommended"],
+  "plugins": ["prettier", "googleappsscript"],
+  "globals": {
+    "global": true
+  },
+  "env": {
+    "googleappsscript/googleappsscript": true
+  }
+}

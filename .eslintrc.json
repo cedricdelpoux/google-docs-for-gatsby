@@ -1,0 +1,12 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["eslint:recommended", "prettier"],
+  "plugins": ["prettier"],
+  "globals": {
+    "process": true
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "no-unused-vars": "error"
+  }
+}

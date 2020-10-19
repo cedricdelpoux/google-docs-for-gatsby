@@ -1,0 +1,14 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["plugin:prettier/recommended", "plugin:react/recommended"],
+  "plugins": ["babel", "react", "prettier"],
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
