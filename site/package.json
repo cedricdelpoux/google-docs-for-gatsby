@@ -1,0 +1,43 @@
+{
+  "name": "google-docs-for-gatsby-site",
+  "private": true,
+  "dependencies": {
+    "gatsby": "^2.20.12",
+    "gatsby-image": "^2.3.1",
+    "gatsby-plugin-remove-trailing-slashes": "^2.6.0",
+    "gatsby-plugin-sharp": "^2.5.7",
+    "gatsby-plugin-slug": "^1.1.1",
+    "gatsby-remark-copy-linked-files": "^2.6.0",
+    "gatsby-remark-external-links": "^0.0.4",
+    "gatsby-remark-images": "^3.2.6",
+    "gatsby-source-filesystem": "^2.2.4",
+    "gatsby-transformer-remark": "^2.8.0",
+    "gatsby-transformer-sharp": "^2.4.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "prettier": "2.0.4",
+    "replace-in-file": "^6.1.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "content:dir": "mkdir -p content",
+    "content:files": "cp ../README.md content && cp ../TERMS.md content && cp ../PRIVACY.md content",
+    "content:assets": "cp -r ../extra/. content/",
+    "content:paths": "replace-in-file /./extra//g '' content/*.md --isRegex",
+    "content:links": "replace-in-file /[\\(][.][/]/g '(https://github.com/cedricdelpoux/google-docs-for-gatsby/blob/main/' content/*.md --isRegex",
+    "content": "yarn content:dir && yarn content:files && yarn content:assets && yarn content:paths && yarn content:links",
+    "dev": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  }
+}
