@@ -64,7 +64,7 @@ See the [privacy policy](./PRIVACY.md)
 
 ## Terms of service
 
-See [Google terms of service](https://policies.google.com/terms)
+See [Terms of service](./TERMS.md)
 
 [badge-licence]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
 [badge-prs]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
