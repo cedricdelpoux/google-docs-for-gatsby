@@ -8,7 +8,7 @@
 
 [![Google Clasp][badge-clasp]](https://github.com/google/clasp)
 [![PRs welcome][badge-prs]](#contributing)
-[![MIT license][badge-licence]](./LICENCE.md)
+[![MIT license][badge-licence]](./LICENSE.md)
 
 </div>
 
@@ -54,7 +54,7 @@ See the [Contributing guide](./CONTRIBUTING.md).
 
 This project is licensed under the MIT License.
 
-See the [LICENCE](./LICENCE.md) for details.
+See the [LICENSE](./LICENSE.md) for details.
 
 ## Privacy Policy
 
