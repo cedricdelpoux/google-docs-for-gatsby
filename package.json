@@ -22,9 +22,8 @@
     "deploy": "yarn clean && yarn build && npx clasp push",
     "dev": "yarn deploy:dev && yarn serve",
     "lint": "eslint src --ext .js",
-    "login": "clasp login",
     "serve": "webpack-dev-server",
-    "setup": "rm -f .clasp.json && clasp create --type docs --title 'Gatsby-source-google-docs Addon Test' --rootDir ./dist"
+    "setup": "clasp login && rm -f .clasp.json && clasp create --type docs --title 'Gatsby-source-google-docs Addon Test' --rootDir ./dist"
   },
   "engines": {
     "node": ">=10.0.0",
