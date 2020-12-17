@@ -1,4 +1,8 @@
 module.exports = {
+  flags: {
+    FAST_DEV: true,
+    FAST_REFRESH: true,
+  },
   pathPrefix: "/google-docs-for-gatsby",
   siteMetadata: {
     title: `Docs for Gatsby`,
@@ -7,6 +11,8 @@ module.exports = {
     siteUrl: `https://gatsby-starter-fresh.netlify.app`,
   },
   plugins: [
+    "gatsby-plugin-root-import",
+    "gatsby-plugin-layout",
     "gatsby-plugin-slug",
     "gatsby-plugin-remove-trailing-slashes",
     `gatsby-transformer-sharp`,

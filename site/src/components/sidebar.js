@@ -1,7 +1,7 @@
 import React from "react"
 import {Link} from "gatsby"
 
-import {useSiteMetadata} from "../utils/use-site-metadata"
+import {useSiteMetadata} from "src/utils/use-site-metadata"
 
 export const Sidebar = () => {
   const {title} = useSiteMetadata()

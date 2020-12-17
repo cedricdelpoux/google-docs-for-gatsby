@@ -6139,6 +6139,13 @@ gatsby-page-utils@^0.5.0:
     lodash "^4.17.20"
     micromatch "^4.0.2"
 
+gatsby-plugin-layout@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-layout/-/gatsby-plugin-layout-1.6.0.tgz#b98f7e6eb50c87e383bde92872aadb28bbc0c4dc"
+  integrity sha512-KuMKXNJWF5dbfrW72u+chbmhpyamjl8JlxOo8jSXucbGLqZqBxFsAPnmvRW8TqDKqYjnU1uB1qPtO7vTD2rZDA==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+
 gatsby-plugin-page-creator@^2.6.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-2.6.0.tgz#d58ffdf92a42998154518dcbb44bd8737f91e5ac"
@@ -6158,6 +6165,11 @@ gatsby-plugin-remove-trailing-slashes@^2.6.0:
   integrity sha512-Hj9vwS9cMlpcsYZoIT5k3fuzEyPz+JJk1YrKjh7zFRtW5WxL43NjK45I2bT0OuhzzLZ36CBaVTTLqD5gCqJbSA==
   dependencies:
     "@babel/runtime" "^7.12.5"
+
+gatsby-plugin-root-import@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-root-import/-/gatsby-plugin-root-import-2.0.5.tgz#04e520dc661d67f49aa7950f11b7c780fd2fdbd3"
+  integrity sha512-/yA6rFjfjiFb8D6nCjfFrrGqYQMkOt4J3u2o6s7VYEF/zpA5dw2C9ENJ5fDKkJSCbbwLiEIGVMMee3vMEip2zA==
 
 gatsby-plugin-sharp@^2.5.7:
   version "2.10.0"

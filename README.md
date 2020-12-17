@@ -2,14 +2,12 @@
   <h1>Docs for Gatsby</h1>
   <br/>
   <p>
-    <img src="./extra/logo.png" alt="Docs for Gatsby" height="100px">
+    <img src="./extra/logo.png" alt="Docs for Gatsby" height="100px" />
   </p>
   <br/>
-
-[![Google Clasp][badge-clasp]](https://github.com/google/clasp)
-[![PRs welcome][badge-prs]](#contributing)
-[![MIT license][badge-licence]](./LICENSE.md)
-
+  <img src="https://img.shields.io/badge/built%20with-clasp-4285f4.svg?style=flat-square" alt="Google Clasp" />
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs welcome" />
+  <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="MIT license" />
 </div>
 
 ---
@@ -49,23 +47,3 @@ Select Install to begin using it in **Google Docs**.
 -   For bugs and feature requests, please [create an issue](https://github.com/cedricdelpoux/google-docs-for-gatsby/issues/new).
 
 See the [Contributing guide](./CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the MIT License.
-
-See the [LICENSE](./LICENSE.md) for details.
-
-## Privacy Policy
-
-**Docs for Gatsby** respect your privacy and do not keep any data.
-
-See the [privacy policy](./PRIVACY.md)
-
-## Terms of service
-
-See [Terms of service](./TERMS.md)
-
-[badge-licence]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
-[badge-prs]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
-[badge-clasp]: https://img.shields.io/badge/built%20with-clasp-4285f4.svg?style=flat-square
