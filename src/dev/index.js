@@ -1,6 +1,7 @@
 import React, {useEffect} from "react"
 import ReactDOM from "react-dom"
-import googleAppsScript from "srcgoogle-apps-script"
+
+import googleAppsScript from "../google-apps-script"
 
 const {FILENAME, PORT} = process.env
 
